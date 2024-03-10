@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: Jumper;
+    src: url(fonts/JumperPERSONALUSEONLY-Bold.ttf);
+}
+body{
+    margin:0px;
+    background-image: url(sky-background.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-color:rgb(207, 228, 248);
+    }
+header{
+    padding: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    justify-content: space-between;
+    align-items:center;
+    background-color: white;
+
+}
+.navbar ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navbar a{
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
+    font-size:17px;
+    color:rgb(0, 0, 0);
+    text-decoration: none; /*removes line under links*/
+    padding: 15px;
+    transition: all 0.3s ease 0s;
+}
+.navbar a:hover{
+    color:blue;
+}
+h1{
+    font-family: Jumper;
+    font-size: 30px;
+    padding-bottom:15px;
+    margin:0px;
+}
+h2{
+    font-family: Montserrat;
+    font-size: 15px;
+    padding:0px;
+    margin:0px;
+}
+h3{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight:300;
+    padding:0px;
+    margin:0px;
+
+}
+.container{
+    padding: 40px 40px;
+    width: 700px;
+    height: 300px;
+    border-style:solid;
+    border-width: 2px;
+    border-color:black;
+    background-color: white;
+    margin:auto;
+    display:flex;
+    position: relative;
+}
+#picture{
+    height:300px;
+    width:300px;
+    
+}
+#box{
+    width:400px;
+
+}
+#image-container{
+    width:300px;
+}
+.container a{
+    text-decoration: none;
+}
+#upper-text-box{
+    height:220px;
+    width:300px;
+}
+#lower-text-box{
+    height:80px;
+    margin-bottom:0px;
+
+}
+#socials{
+    padding-bottom:5px;
+}
